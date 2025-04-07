@@ -15,6 +15,7 @@ This is a repository to set up a secure and fast static website deployment using
 - [Deploy the Static Website](#deploy-the-static-website)
 - [Secure the website deployment](secure-the-website-deployment)
 - [Setup a Custom Doman](#setup-a-custom-domain)
+- [Best Practices](#best-practices)
 
     
 ## Overview
@@ -35,6 +36,7 @@ This project uses Pulumi as an IAC tool to set up a secure and fast static websi
     
 
 ## Architecture
+<img src='.assets/pulwebarc.png'/>
 
 ## Project Structure
 ```
