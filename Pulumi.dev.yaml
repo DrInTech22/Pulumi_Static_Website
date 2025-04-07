@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  website:indexDocument: index.html
+  website:errorDocument: error.html
+  website:path: ./react_website/build
+  website:domain: drintech.online
+  website:subdomain: challenge
