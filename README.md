@@ -60,12 +60,12 @@ To get started, make sure you have the following:
     
 * A basic understanding of Python
     
-* AWS CLI installed and configured
+* AWS CLI [installed](https://docs.aws.amazon.com/cli/v1/userguide/install-linux.html) and [configured](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
     
 
 ## Pulumi Installation
 
-You will now install Pulumi. If you're not using Linux, check the documentation for the installation command specific to your operating system.
+You will now install Pulumi. If you're not using Linux, check the [documentation](https://www.pulumi.com/docs/iac/download-install/) for the installation command specific to your operating system.
 
 ```sh
 curl -fsSL https://get.pulumi.com | sh
@@ -640,3 +640,7 @@ You can now run `pulumi up` and securely access the static website using the cus
 5. **Configure Custom Error Pages**: Serve friendly 404 pages via CloudFront’s custom_error_responses.
 
 6. **Use Route 53 Alias A Record**: Use alias A records instead of CNAMEs to point domains to CloudFront.
+
+## Reference Links
+- [Pulumi docs](https://www.pulumi.com/templates/static-website/aws/)
+- [Optimizing content delivery through S3 caching](https://depascalematteo.medium.com/optimizing-content-delivery-the-complete-guide-through-s3-caching-and-cloudfront-df64d1b7536a)
